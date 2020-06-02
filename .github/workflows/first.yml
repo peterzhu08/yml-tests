@@ -3,6 +3,12 @@ name: first
 on: push
 
 jobs:
+    job0:
+        name: Hello World
+        runs-on: ubuntu-latest
+        steps:
+        - name: Hello World
+        uses: actions/hello-world-javascript-action@v1
     job1:
         name: first job
         runs-on: ubuntu-latest
