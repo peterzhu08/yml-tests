@@ -8,7 +8,7 @@ jobs:
         name: Hello World
         runs-on: ubuntu-latest
         steps:
-        - name: Hello World
+        - name: Helloorld
           uses: actions/hello-world-javascript-action@v1
     job1:
         name: first job
